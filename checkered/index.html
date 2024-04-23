@@ -12,15 +12,16 @@
   </head>
   <body style="font-family: 'Roboto', sans-serif" class="p-8">
     <div class="">
-      <div class="grid grid-cols-1 md:grid-rows-12 md:grid-cols-2">
+      <div class="grid grid-cols-1 md:grid-rows-4 md:grid-cols-2">
         <!-- Top left box -->
         <div
-          class="flex flex-col justify-center border-r-2 border-b-2 border-t-2 col-span-1 md:row-span-4"
+          class="flex flex-col justify-center p-3 md:border-r-2 md:border-b-2 md:border-t-2 col-span-1 md:row-span-4"
         >
-          <h2 class="text-5xl font-semibold text-black">
-            Your Fitness Journey Starts Here
+          <h2 class="text-5xl text-black mb-3">
+            Your
+            <span class="font-bold">Fitness Journey</span> Starts Here
           </h2>
-          <p class="text-gray-300">
+          <p class="text-gray-300 mb-3">
             Transform your health and achieve your fitness goals with
             personalized workout plans tailored just for you. Get ready to
             embark on a journey to a healthier, stronger, and happier you.
@@ -32,7 +33,7 @@
               Get Started
             </button>
             <button
-              class="bg-white hover:bg-gray-200 text-black font-bold py-2 px-4 rounded-lg border border-gray-300 transition duration-300 ease-in-out"
+              class="bg-white hover:bg-gray-200 text-black font-bold py-2 px-4 rounded-lg md:border border-gray-300 transition duration-300 ease-in-out"
             >
               Learn More
             </button>
@@ -40,35 +41,40 @@
         </div>
         <!-- Top right box -->
         <div
-          class="flex justify-center items-center md:col-span-1 md:row-span-4 border-l-2 border-t-2 border-b-2 border-gray-300"
+          class="flex justify-center items-end md:col-span-1 md:row-span-4 md:border-l-2 md:border-t-2 border-b-2 border-gray-300"
         >
           <img src="/images/liftgirl.png" />
         </div>
         <!-- Bottom left box -->
         <div
-          class="flex items-center justify-center md:row-span-1 bg-yellow-200"
+          class="flex flex-col items-center justify-center md:row-span-1 bg-amber-50 md:border-r-2"
         >
           <div class="text-center">
             <div class="flex">
-              <div class="border-r-2 p-3">
-                <h2 class="text-xl font-semibold mb-2">15+ Years</h2>
-                <p>Year Experience</p>
+              <div class="md:border-r-2 p-3">
+                <h2 class="text-2xl font-semibold mb-2 mx-5">15+ Years</h2>
+                <p class="text-gray-400">Year Experience</p>
               </div>
-              <div class="border-r-2 p-3">
-                <h2 class="text-xl font-semibold mb-2">90+</h2>
-                <p>Expert Trainers</p>
+              <div class="md:border-r-2 p-3">
+                <h2 class="text-2xl font-semibold mb-2 mx-5">90+</h2>
+                <p class="text-gray-400">Expert Trainers</p>
               </div>
               <div class="p-3">
-                <h2 class="text-xl font-semibold mb-2">443</h2>
-                <p>Classes</p>
+                <h2 class="text-2xl font-semibold mb-2 mx-5">443</h2>
+                <p class="text-gray-400">Classes</p>
               </div>
             </div>
           </div>
         </div>
         <!-- Bottom right box -->
-        <div class="md:row-span-1 bg-red-200">
-          <h2 class="text-xl font-semibold mb-2">Box 4 (Bottom)</h2>
-          <p>This is another small box.</p>
+        <div
+          class="flex flex-col items-center justify-center md:row-span-1 md:border-l-2"
+        >
+          <img class="p-3 rounded-full" src="/images/users.png" />
+          <div class="text-center">
+            <h2 class="text-xl font-semibold mb-2">176k</h2>
+            <p class="text-gray-400">Active Customers Worldwide</p>
+          </div>
         </div>
       </div>
     </div>
