@@ -10,30 +10,47 @@
     />
     <title>Document</title>
   </head>
-  <body style="font-family: 'Roboto', sans-serif" class="p-8 bg-gray-100">
-    <div class="container mx-auto">
-      <div class="grid grid-cols-1 md:grid-rows-12 md:grid-cols-2 gap-4">
+  <body style="font-family: 'Roboto', sans-serif" class="p-8">
+    <div class="">
+      <div class="grid grid-cols-1 md:grid-rows-12 md:grid-cols-2">
         <!-- Top left box -->
         <div
-          class="md:col-span-1 md:row-span-4 bg-blue-400 p-8 rounded-lg shadow-md"
+          class="flex flex-col justify-center border-r-2 border-b-2 border-t-2 col-span-1 md:row-span-4"
         >
-          <h2 class="text-2xl font-semibold mb-4 text-white">Box 1 (Top)</h2>
-          <p class="text-white">This is a large box.</p>
+          <h2 class="text-5xl font-semibold text-black">
+            Your Fitness Journey Starts Here
+          </h2>
+          <p class="text-gray-300">
+            Transform your health and achieve your fitness goals with
+            personalized workout plans tailored just for you. Get ready to
+            embark on a journey to a healthier, stronger, and happier you.
+          </p>
+          <div class="block">
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300 ease-in-out"
+            >
+              Blue Button
+            </button>
+            <button
+              class="bg-white hover:bg-gray-200 text-black font-bold py-2 px-4 rounded-lg border border-gray-300 transition duration-300 ease-in-out"
+            >
+              White Button
+            </button>
+          </div>
         </div>
         <!-- Top right box -->
         <div
-          class="md:col-span-1 md:row-span-4 bg-green-400 p-8 rounded-lg shadow-md"
+          class="flex justify-center items-center md:col-span-1 md:row-span-4 border-l-2 border-t-2 border-b-2 border-gray-300"
         >
-          <h2 class="text-2xl font-semibold mb-4 text-white">Box 2 (Top)</h2>
-          <p class="text-white">This is another large box.</p>
+          <img src="/images/liftgirl.png" />
         </div>
         <!-- Bottom left box -->
-        <div class="md:row-span-1 bg-yellow-200 p-4 rounded-lg shadow-md">
+        <div class="md:row-span-1 bg-yellow-200">
           <h2 class="text-xl font-semibold mb-2">Box 3 (Bottom)</h2>
           <p>This is a small box.</p>
         </div>
         <!-- Bottom right box -->
-        <div class="md:row-span-1 bg-red-200 p-4 rounded-lg shadow-md">
+        <div class="md:row-span-1 bg-red-200">
           <h2 class="text-xl font-semibold mb-2">Box 4 (Bottom)</h2>
           <p>This is another small box.</p>
         </div>
