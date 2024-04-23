@@ -1,32 +1,81 @@
 <!DOCTYPE html>
-<html
-  lang="en"
-  lang="en"
-  class="bg-gradient-to-br from-cyan-100 to-white h-screen"
->
+<html lang="en" class="bg-gradient-to-br from-cyan-100 to-white h-screen">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
-  <body class="p-8">
+  <body style="font-family: 'Roboto', sans-serif" class="p-8">
     <div class="container mx-auto px-4 py-9 md:py-40">
-      <div class="grid grid-cols-3 gap-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 md:gap-3 mb-3">
         <!-- First column taking up 2 spaces -->
-        <div class="md:col-span-2 md:col-span-1 p-4">
-          First Column (col-span-2)
+        <div
+          class="md:col-span-2 md:col-span-1 md:col-span-2 md:col-span-1 flex flex-col justify-between h-full"
+        >
+          <p class="font-bold text-5xl">Pure Air, Pure Living.</p>
+          <p class="font-semibold my-5">
+            Our innovative air purifier uses advanced technology to effectively
+            filter out harmful pollutants, leaving your home with cleaner,
+            fresher air
+          </p>
+          <div class="w-max mb-3">
+            <button
+              class="px-6 py-2 rounded-full bg-black text-white font-semibold shadow-md hover:scale-110 transition-transform duration-300 ease-in-out"
+            >
+              Buy Fresh Air
+            </button>
+          </div>
         </div>
         <!-- Second column -->
-        <div class="bg-gray-300 p-4">
-          Reduce risk of airborne virus exposure
+        <div class="relative">
+          <img src="/images/clouds.avif" class="w-full rounded-lg shadow-lg" />
+          <div class="absolute bottom-0 left-0 p-4 text-white">
+            <p class="text-black font-bold text-xs">Breathe freely</p>
+            <p class="text-black font-bold text-1xl">
+              Shield against airborne threats.
+            </p>
+          </div>
         </div>
       </div>
       <!-- Second row with three separate columns -->
-      <div class="grid grid-cols-3 gap-4 mt-4">
-        <div class="bg-gray-300 p-4">Column 1</div>
-        <div class="bg-gray-300 p-4">Better sleep environment</div>
-        <div class="bg-gray-300 p-4">Remove allergens</div>
+      <div class="grid md:grid-cols-3 gap-3">
+        <div class="p-4 flex">
+          <div class="w-1/2">
+            <p class="font-extrabold">+1500</p>
+            <p class="mb-12">Clears Houses Up To</p>
+            <p class="text-gray-400 uppercase text-xs">Trusted By the best</p>
+            <p class="font-bold">Google</p>
+            <p class="font-bold">Microsoft</p>
+          </div>
+          <div class="w-1/2">
+            <p class="font-extrabold">500%</p>
+            <p>Better Air Quality</p>
+          </div>
+        </div>
+        <div class="relative">
+          <img
+            src="/images/photo-1497297907604-2eeb60ccf723.avif"
+            class="w-full rounded-lg shadow-lg"
+          />
+          <div class="absolute bottom-0 left-0 p-4 text-white">
+            <p class="font-bold text-xs">Sleep</p>
+            <p class="font-bold text-1xl">
+              Enhanced rest, rejuvenated mornings.
+            </p>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="/images/seaclouds.avif" class="w-full rounded-lg" />
+          <div class="absolute bottom-0 right-0 p-4 text-white shadow-lg">
+            <p class="font-bold text-xs">allergy-free living</p>
+            <p class="font-bold text-1xl">Remove allergens Breathe easy</p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
